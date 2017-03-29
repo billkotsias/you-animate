@@ -1,0 +1,15 @@
+/**
+ * Flare3D Shader Language v2.0.
+ *
+ * Most simple shader ever!
+ */
+
+// include built-in namespaces.
+use namespace flare.transforms;
+
+technique main() 
+{
+	// writes vertex and fragment values.
+	output vertex = transform();
+	output fragment = float4(99,99,99,1);
+}

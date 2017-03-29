@@ -1,0 +1,33 @@
+<f3d version="2.7.0">
+  <files/>
+  <animations/>
+  <modifiers/>
+  <surfaces>
+    <surface id="2" source="2" name="Plane_1" sizePerVertex="8" firstIndex="0" numTriangles="2" inputs="POSITION,NORMAL,UV0" formats="float3,float3,float2"/>
+    <instanceOf id="3" surface="2" firstIndex="0" numTriangles="2"/>
+  </surfaces>
+  <splines/>
+  <maps>
+    <map id="6" type="2d" source="checkers-board.png"/>
+  </maps>
+  <filters>
+    <filter id="5" name="TextureMapFilter:topLevel" enabled="true" class="flare.materials.filters::TextureMapFilter" blendMode="multiply" techniqueName="main">
+      <param name="alpha" format="float1" value="1"/>
+      <param name="mask" format="float1" value="0"/>
+      <sampler name="texture" type="2d" map="6" filter="1" wrap="1" mip="2" bias="0" format="0"/>
+      <param name="offset" format="float2" value="0,0"/>
+      <param name="repeat" format="float2" value="160,80,1,1"/>
+      <param name="channel" format="float1" value="0"/>
+    </filter>
+  </filters>
+  <materials>
+    <material id="4" name="Plane_material" twoSided="true" transparent="true">
+      <shader sourceFactor="sourceAlpha" destFactor="oneMinusSourceAlpha" cullFace="none" depthCompare="lessEqual" depthWrite="false" filters="5" enableLights="true"/>
+    </material>
+  </materials>
+  <nodes>
+    <node id="0" name="scene" type="pivot" visible="true" layer="0" frameSpeed="1" castShadows="true" receiveShadows="true" transform="1,0,0,0,1,0,0,0,1,0,0,0">
+      <node id="1" name="Plane" type="mesh" visible="true" layer="0" frameSpeed="1" castShadows="true" receiveShadows="true" transform="1600,0,0,0,1,0,0,0,800,0,0,0" min="-25,0,-25" max="25,0,25" center="0,0,0" radius="35.35533905932738" surfaces="3" materials="4"/>
+    </node>
+  </nodes>
+</f3d>

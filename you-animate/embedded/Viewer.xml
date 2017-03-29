@@ -1,0 +1,22 @@
+<WebViewer class="Parent:">
+
+	<info class="fanlib.text.FTextField" alignX="left" alignY="top" format="Myriad Pro,18,0xffffff,,,,,,left" css="small {font-size:14; display:inline;} red {color:#ff7070; display:inline;} grey {color:#cccccc; display:inline;}" filters="DropShadow,2" vars="autoSize=left|border=Bool:false|embedFonts=Bool:false|mouseEnabled=Bool:false|multiline=Bool:true">
+		<![CDATA[Left-click + drag to <red>orbit</red>
+Right-click + drag to change <red>height</red>
+Mouse-wheel to <red>zoom</red>
+<small>Shift + right-click + drag to <red>pan</red></small>]]>
+	</info>
+	
+	<topLayer class="fanlib.gfx.vector.TopLayer" vars="color32=0x7f000000">
+		<centerize class="fanlib.gfx.StagedSprite" vars="stageAlignX=center|stageAlignY=center">
+			<reportProgress class="fanlib.text.FTextField" alignX="center" alignY="center" format="Myriad Pro,32,0xffffff,,,,,,center" css="small {font-size:24; display:inline;} red {color:#ff7070; display:inline;} grey {color:#cccccc; display:inline;}" filters="DropShadow,4" vars="autoSize=left|border=Bool:false|embedFonts=Bool:false|mouseEnabled=Bool:false|multiline=Bool:false"/>
+		</centerize>
+	</topLayer>
+	
+	<logoCont class="fanlib.gfx.StagedSprite" vars="buttonMode=Bool:true|stageAlignX=right|stageAlignY=bottom">
+		<logoURL class="fanlib.ui.URLButton" vars="target=_self|scaleX=0.5|scaleY=Copy:logoURL:scaleX">
+			<logo class="webViewer::WebViewer_LOGO" alignX="left" alignY="bottom" filters="Glow,0xffffff" vars="alpha=0.5"/>
+		</logoURL>
+	</logoCont>
+	
+</WebViewer>

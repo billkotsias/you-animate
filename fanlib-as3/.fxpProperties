@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fxpProperties abbreviated="false" authoringTool="Flex Builder" compiles="true" parentProject="9b60a710-9286-480f-a696-5db411c07287" projectUUID="9b60a710-9286-480f-a696-5db411c07287" pureCatalystProject="false" sdkVersion="4.6.0" uuid="c2fd8d09-692a-441b-ab11-a1aac8ea6779" version="15">
+  <projects/>
+  <src/>
+  <swc>
+    <linked location="sdkPlaceHolder" path="sdkPlaceHolder" position="0" uuid="c2fd8d09-692a-441b-ab11-a1aac8ea6779"/>
+    <linked location="D:/Projects/Flash/swc/Components.swc" path="/linked-swc/Components.swc" position="1" uuid="c2fd8d09-692a-441b-ab11-a1aac8ea6779"/>
+    <linked location="D:/Projects/Flash/swc/Box2D.swc" path="/linked-swc/Box2D.swc" position="2" uuid="c2fd8d09-692a-441b-ab11-a1aac8ea6779"/>
+    <linked location="D:/Projects/Flash/swc/ImageProcessing.swc" path="/linked-swc/ImageProcessing.swc" position="3" uuid="c2fd8d09-692a-441b-ab11-a1aac8ea6779"/>
+    <linked location="D:/Projects/Flash/swc/starling.swc" path="/linked-swc/starling.swc" position="4" uuid="c2fd8d09-692a-441b-ab11-a1aac8ea6779"/>
+  </swc>
+  <misc/>
+  <theme/>
+  <mxmlFormattingPrefs groupAttributesByState="true" maxLineWidth="100" mxmlAlignAttributes="true" mxmlAttributeOrder="id,userLabel,includeIn,excludeFrom,visible,x,y,z,left,right,top,bottom,width,height,minWidth,minHeight,maxWidth,maxHeight,label" mxmlKeepAttributeValuesOrganized="true"/>
+</fxpProperties>
